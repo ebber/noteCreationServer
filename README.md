@@ -1,0 +1,1 @@
+# noteCreationServer for SpartaHacks
