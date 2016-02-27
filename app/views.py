@@ -30,7 +30,8 @@ def makeNote(typeF,contents):
   #thoughtspace.firebase.io
   #make call to firebase
   note_id=1
-  contentDict={'type':typeF, 'content':contents}
+  place={'x':0,'y':0,'z':0}
+  contentDict={'type':typeF, 'content':contents, 'loc':place}
   firebase.post("/notes",contentDict )
   return render_template("newNote.html",
                           typef=nNote.getType(),
