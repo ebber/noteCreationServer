@@ -3,9 +3,6 @@ Flask-Login==0.3.2
 Jinja2==2.8
 networkx==1.10
 pycurl==7.19.5.1
-pyobjc-core==2.5.1
-pyobjc-framework-Accounts==2.5.1
-pyobjc-framework-AddressBook==2.5.1
 python-firebase==1.2
 requests==2.9.1
 scapy==2.3.2
